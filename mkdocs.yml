@@ -1,1 +1,34 @@
-site_name: My Docs
+site_name: edac.dev
+site_author: Derek Kaser
+site_url: https://edac.dev
+
+repo_name: dkaser/edac-dev
+repo_url: https://github.com/dkaser/edac-dev
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github-alt
+
+nav:
+  - Home: index.md
+  - Unraid:
+      - Tailscale:
+          - Plugin Setup: unraid/tailscale/plugin.md
+          - Advanced Settings: unraid/tailscale/advanced.md
+          - Docker Containers:
+             - Options: unraid/tailscale/docker-options.md
+             - TSDProxy: unraid/tailscale/docker-tsdproxy.md
+             - Sidecar Container: unraid/tailscale/docker-sidecar.md
+             - LinuxServer.io Mod: unraid/tailscale/docker-lsio.md
