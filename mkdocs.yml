@@ -1,14 +1,16 @@
-site_name: edac.dev
+site_name: EDAC.dev
 site_author: Derek Kaser
 site_url: https://edac.dev
 
-repo_name: dkaser/edac-dev
 repo_url: https://github.com/dkaser/edac-dev
+repo_name: dkaser/edac-dev
 
 plugins:
   - search
   - git-revision-date-localized
   - glightbox
+  - social
+
 
 markdown_extensions:
   - admonition
@@ -20,6 +22,9 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github-alt
+  palette:
+    primary: deep purple
+    accent: deep purple
 
 nav:
   - Home: index.md
