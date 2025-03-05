@@ -9,8 +9,6 @@ plugins:
   - search
   - git-revision-date-localized
   - glightbox
-  - social
-
 
 markdown_extensions:
   - admonition
