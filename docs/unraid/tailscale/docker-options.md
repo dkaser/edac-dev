@@ -1,4 +1,9 @@
-# Directly Connecting Containers to Tailscale
+---
+title: Tailscale Options for Docker Containers
+description: Explains different methods for connecting Docker containers to Tailscale, including TSDProxy with Label Manager, sidecar containers, LinuxServer.io's Tailscale Docker Mod, and "Use Tailscale".
+---
+
+# Tailscale Options for Docker Containers
 
 !!! info
     Docker containers running on bridge networks do not need to have Tailscale installed within the container if the

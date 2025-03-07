@@ -1,3 +1,8 @@
+---
+title: Advanced Tailscale Settings
+description: How to configure a subnet router and set up an exit node using the Tailscale plugin for Unraid.
+---
+
 # Advanced Tailscale Settings
 
 ## Subnet Router

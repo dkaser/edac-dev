@@ -1,4 +1,9 @@
-# Basic Tailscale Setup
+---
+title: Plugin Setup
+description: The Unraid Tailscale plugin simplifies remote access to your Unraid server by enabling secure connections to its WebGUI, file shares, SSH, and Docker containers using Tailscale’s VPN, without complex network configurations.
+---
+
+# Plugin Setup
 
 These instructions will help you create a Tailnet and connect an Unraid server. Once finished, you should be able to
 connect to the following services via the Tailscale IP / MagicDNS name of the Unraid server:

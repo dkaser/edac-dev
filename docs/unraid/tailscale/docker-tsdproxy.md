@@ -1,3 +1,8 @@
+---
+title: Connecting Docker Containers via TSDProxy
+description: How to use TSDProxy and Label Manager to easily share containers via Tailscale.
+---
+
 # Connecting Docker Containers via TSDProxy
 
 ## Installation

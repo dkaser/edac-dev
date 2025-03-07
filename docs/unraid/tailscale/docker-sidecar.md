@@ -1,3 +1,8 @@
+---
+title: Running Tailscale as a sidecar container
+description: How to connect a container directly to Tailscale by installing a Tailscale sidecar container.
+---
+
 # Running Tailscale as a sidecar container
 
 1. Install **Tailscale-Docker** from Community Applications.

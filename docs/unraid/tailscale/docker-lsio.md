@@ -1,3 +1,8 @@
+---
+title: Using the Tailscale Docker Mod for LinuxServer.io containers
+description: LinuxServer.io containers support the Tailscale Universal Docker Mod, which can install Tailscale directly into the container.
+---
+
 # Using the Tailscale Docker Mod for LinuxServer.io containers
 
 1. Edit the Docker container that you wish to connect to Tailscale.
