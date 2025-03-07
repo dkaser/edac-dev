@@ -4,3 +4,5 @@ mkdocs-material
 pymdown-extensions
 yamllint
 mkdocs-git-revision-date-localized-plugin
+pillow
+cairosvg
