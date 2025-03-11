@@ -36,9 +36,7 @@ description: Use a virtual SCSI drive to boot Unraid with a flash drive for lice
    ```
 6. Shut down the VM.
 7. Detach the flash drive from the VM.
-8. Start the VM.
-   !!! note
-       The system will report a registration error at this point; this is expected.
+8. Start the VM. The system will report a registration error at this point; this is expected.
 9. Reattach the flash drive to the VM.
 10. Reformat the flash drive to remove all files:
     ```
