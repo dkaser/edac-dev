@@ -1,6 +1,6 @@
 ---
 title: Tailscale Options for Docker Containers
-description: Explains different methods for connecting Docker containers to Tailscale, including TSDProxy with Label Manager, sidecar containers, LinuxServer.io's Tailscale Docker Mod, and "Use Tailscale".
+description: Advantages and disadvantages of different methods for connecting Docker containers to Tailscale.
 ---
 
 # Tailscale Options for Docker Containers

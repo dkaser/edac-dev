@@ -5,6 +5,9 @@ site_url: https://edac.dev
 repo_url: https://github.com/dkaser/edac-dev
 repo_name: dkaser/edac-dev
 
+watch:
+  - include
+
 plugins:
   - search
   - git-revision-date-localized
@@ -13,7 +16,11 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      check_paths: true
   - toc:
       permalink: true
 
@@ -28,6 +35,9 @@ theme:
 nav:
   - Home: index.md
   - Unraid:
+      - Experiments:
+          - BTRFS/XFS Flash Drive: unraid/experiments/alternate-fs.md
+          - Booting from Virtual SCSI: unraid/experiments/boot-virtio-scsi.md
       - Tailscale:
           - Plugin Setup: unraid/tailscale/plugin.md
           - Advanced Settings: unraid/tailscale/advanced.md
