@@ -38,6 +38,8 @@ nav:
       - Experiments:
           - BTRFS/XFS Flash Drive: unraid/experiments/alternate-fs.md
           - Booting from Virtual SCSI: unraid/experiments/boot-virtio-scsi.md
+      - Security:
+          - CVE-2025-29266: security/CVE-2025-29266.md
       - Tailscale:
           - Plugin Setup: unraid/tailscale/plugin.md
           - Advanced Settings: unraid/tailscale/advanced.md
