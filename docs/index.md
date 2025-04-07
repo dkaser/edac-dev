@@ -1,5 +1,6 @@
 ---
 description: A small collection of resources that I hope you'll find useful, especially for Unraid and Tailscale.
+comments: false
 ---
 
 # Welcome to EDAC.dev

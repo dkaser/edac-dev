@@ -13,6 +13,7 @@ plugins:
   - git-revision-date-localized
   - glightbox
   - social
+  - meta
 
 markdown_extensions:
   - admonition
@@ -31,6 +32,32 @@ theme:
   palette:
     primary: deep purple
     accent: deep purple
+  custom_dir: overrides
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      Cookies are used to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of this documentation and whether users
+      find what they're searching for. With your consent, you're helping to
+      make this documentation better.
+  analytics:
+    provider: google
+    property: G-JRBVT1JKQN
+  feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback!
 
 nav:
   - Home: index.md
