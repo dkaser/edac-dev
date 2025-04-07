@@ -45,7 +45,7 @@ extra:
   analytics:
     provider: google
     property: G-JRBVT1JKQN
-  feedback:
+    feedback:
       title: Was this page helpful?
       ratings:
         - icon: material/emoticon-happy-outline
