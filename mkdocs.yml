@@ -24,6 +24,7 @@ markdown_extensions:
       check_paths: true
   - toc:
       permalink: true
+  - def_list
 
 theme:
   name: material
@@ -76,4 +77,7 @@ nav:
             - TSDProxy: unraid/tailscale/docker-tsdproxy.md
             - Sidecar Container: unraid/tailscale/docker-sidecar.md
             - LinuxServer.io Mod: unraid/tailscale/docker-lsio.md
+      - Plugin Diagnostics:
+        - Usage: unraid/plugin-diagnostics/usage.md
+        - Developers: unraid/plugin-diagnostics/developers.md
   - Trucaption: projects/trucaption.md
