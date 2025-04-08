@@ -62,16 +62,18 @@ extra:
 nav:
   - Home: index.md
   - Unraid:
-      - Experiments:
-          - BTRFS/XFS Flash Drive: unraid/experiments/alternate-fs.md
-          - Booting from Virtual SCSI: unraid/experiments/boot-virtio-scsi.md
-      - Security:
-          - CVE-2025-29266: security/CVE-2025-29266.md
+    - Experiments:
+        - BTRFS/XFS Flash Drive: unraid/experiments/alternate-fs.md
+        - Booting from Virtual SCSI: unraid/experiments/boot-virtio-scsi.md
+    - Security:
+        - CVE-2025-29266: security/CVE-2025-29266.md
+    - Plugins:
       - Tailscale:
-          - Plugin Setup: unraid/tailscale/plugin.md
-          - Advanced Settings: unraid/tailscale/advanced.md
-          - Docker Containers:
-             - Options: unraid/tailscale/docker-options.md
-             - TSDProxy: unraid/tailscale/docker-tsdproxy.md
-             - Sidecar Container: unraid/tailscale/docker-sidecar.md
-             - LinuxServer.io Mod: unraid/tailscale/docker-lsio.md
+        - Plugin Setup: unraid/tailscale/plugin.md
+        - Advanced Settings: unraid/tailscale/advanced.md
+        - Docker Containers:
+            - Options: unraid/tailscale/docker-options.md
+            - TSDProxy: unraid/tailscale/docker-tsdproxy.md
+            - Sidecar Container: unraid/tailscale/docker-sidecar.md
+            - LinuxServer.io Mod: unraid/tailscale/docker-lsio.md
+  - Trucaption: projects/trucaption.md
