@@ -66,6 +66,7 @@ nav:
     - Experiments:
         - BTRFS/XFS Flash Drive: unraid/experiments/alternate-fs.md
         - Booting from Virtual SCSI: unraid/experiments/boot-virtio-scsi.md
+        - GRUB 2: unraid/experiments/grub.md
     - Security:
         - CVE-2025-29266: security/CVE-2025-29266.md
     - Plugins:
