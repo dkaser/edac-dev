@@ -10,10 +10,6 @@ description: Configuring a flash drive with a more resilient filesystem.
 !!! note
     This process only works for EFI boot.
 
-## Required Files
-
-- [GRUB files](assets/unraid-grub-fs.tar.gz){: download="unraid-grub-fs.tar.gz"}
-
 ## Instructions
 
 1. Create backup of flash drive, or install second flash drive if running instructions on Unraid. Determine device path of target flash drive.
@@ -35,15 +31,21 @@ description: Configuring a flash drive with a more resilient filesystem.
 
 4. Mount filesystems:
    ```
-   mkdir -p /mnt/unraid-flash/efi
-   mkdir -p /mnt/unraid-flash/data
+   mkdir -p /tmp/unraid-flash/efi
+   mkdir -p /tmp/unraid-flash/data
 
-   mount /dev/sdX1 /mnt/unraid-flash/efi
-   mount /dev/sdX2 /mnt/unraid-flash/data
+   mount /dev/sdX1 /tmp/unraid-flash/efi
+   mount /dev/sdX2 /tmp/unraid-flash/data
    ```
 
-5. Copy backup of flash drive to `/mnt/unraid-flash/data`
-6. Extract GRUB files to `/mnt/unraid-flash/efi`. This should result in a `/mnt/unraid-flash/efi/EFI` and `/mnt/unraid-flash/efi/grub` folder.
+5. Copy backup of flash drive to `/tmp/unraid-flash/data`
+6. Prepare GRUB loader on EFI partition:
+   ```
+   mkdir -p /tmp/unraid-flash/efi/EFI/boot/
+   cd /tmp/unraid-flash/efi/EFI/boot/
+   wget https://github.com/dkaser/unraid-grub/releases/latest/download/BOOTX64.EFI
+   ```
+
 7. Unmount flash drive:
    ```
    umount /mnt/unraid-flash/efi
