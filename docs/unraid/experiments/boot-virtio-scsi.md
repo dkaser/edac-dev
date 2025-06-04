@@ -9,7 +9,7 @@ description: Use a virtual SCSI drive to boot Unraid with a flash drive for lice
 
 !!! note
     - This works for VirtIO SCSI devices (e.g., virtual SCSI drives in Proxmox) in Unraid 7. Support for other SATA/SCSI drives (e.g., physical drives) requires a custom kernel that includes the relevant driver.
-    - You still need a flash drive connected, but it is only used for the license.
+    - You still need a physical flash drive connected, but it is only used for the license.
 
 ## Instructions
 
@@ -49,5 +49,5 @@ description: Use a virtual SCSI drive to boot Unraid with a flash drive for lice
 ![!unraid-virtio-boot.png](assets/unraid-virtio-boot.png)
 
 - /dev/sda is the virtual drive that has the Unraid boot files (single VFAT partition, labeled UNRAID, with all of the files that would usually be on the flash drive)
-- /dev/sdc is the USB drive attached to the license. It has a single VFAT partition, also labeled UNRAID, but has no files.
+- /dev/sdc is the physical USB drive attached to the license. It has a single VFAT partition, also labeled UNRAID, but has no files.
 - System is licensed and array is started.
