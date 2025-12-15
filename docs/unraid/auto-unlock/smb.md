@@ -40,7 +40,7 @@ Replace:
 
 - `192.168.1.100` with your SMB server address
 - `username` with your SMB username
-- `OBSCURED_VALUE` with the obscured password from Step 4
+- `OBSCURED_VALUE` with the obscured password from Step 1
 - `share/autounlock/piece.txt` with your share name and path
 
 ### Step 3: Add to Automatic Disk Unlock Configuration
