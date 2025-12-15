@@ -89,7 +89,7 @@ After saving your pieces, the configuration screen will switch to configuration 
 
 ## Disable Manual Array Start
 
-Once Automatic Disk Unlock is configured and tested, you should disable the built in automatic start option (if you were using another method to automatically start the array):
+Once Automatic Disk Unlock is configured and tested, you should disable the native automatic start option (if you were using another method to automatically start the array):
 
 1. Navigate to **Settings** → **Disk Settings**
 2. Disable **Enable auto start** (set to **No**)

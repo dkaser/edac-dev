@@ -126,7 +126,7 @@ Refer to your cloud provider's documentation for setting up HTTP access to files
 
 --8<-- "include/auto-unlock/add-entry.snip"
 
-## Security Considerations∂
+## Security Considerations
 
 !!! warning "Use HTTPS"
     Always use HTTPS instead of HTTP to encrypt the piece during transit. This prevents network observers from intercepting your pieces.
