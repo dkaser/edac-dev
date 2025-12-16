@@ -19,7 +19,11 @@ markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets:
       check_paths: true
   - toc:
@@ -31,8 +35,21 @@ theme:
   icon:
     repo: fontawesome/brands/github-alt
   palette:
-    primary: deep purple
-    accent: deep purple
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+      primary: deep purple
+      accent: deep purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: lucide/moon
+        name: Switch to light mode
+      primary: deep purple
+      accent: deep purple
   custom_dir: overrides
 
 extra:
@@ -70,6 +87,14 @@ nav:
       - Security:
           - CVE-2025-29266: security/CVE-2025-29266.md
       - Plugins:
+          - Auto-Unlock:
+              - Overview: unraid/auto-unlock/setup.md
+              - How It Works: unraid/auto-unlock/how.md
+              - S3 Storage: unraid/auto-unlock/s3.md
+              - SMB Storage: unraid/auto-unlock/smb.md
+              - SFTP Storage: unraid/auto-unlock/sftp.md
+              - DNS Storage: unraid/auto-unlock/dns.md
+              - HTTP Storage: unraid/auto-unlock/http.md
           - Tailscale:
               - Plugin Setup: unraid/tailscale/plugin.md
               - Advanced Settings: unraid/tailscale/advanced.md

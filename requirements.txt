@@ -1,8 +1,1 @@
-mkdocs
-mkdocs-glightbox
-mkdocs-material
-pymdown-extensions
-yamllint
-mkdocs-git-revision-date-localized-plugin
-pillow
-cairosvg
+zensical==0.0.11
