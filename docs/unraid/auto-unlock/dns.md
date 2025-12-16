@@ -16,7 +16,6 @@ You create DNS TXT records containing your base64-encoded pieces. During boot, a
 
     - **Public DNS**: Avoid using public DNS for pieces containing sensitive data unless you're comfortable with potential exposure
     - **Local DNS**: Using a local DNS server (within your network) provides better privacy and control (can't be accessed from outside)
-    - **DNS over HTTPS/TLS**: Some DNS servers support encrypted DNS, adding a layer of privacy
 
 ## Configuration Format
 
