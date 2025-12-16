@@ -15,7 +15,7 @@ nav = [
             { "GRUB 2" = "unraid/experiments/grub.md" }
         ]},
         { "Security" = [
-            { "CVE-2025-2926" = "security/CVE-2025-29266.md" }
+            { "CVE-2025-29266" = "security/CVE-2025-29266.md" }
         ]},
         { "Plugins" = [
             { "Auto Unlock" = [
@@ -69,6 +69,8 @@ features = [
     "content.code.copy"
 ]
 
+[project.theme.icon]
+repo = "fontawesome/brands/github-alt"
 
 [project.extra.analytics]
 provider = "google"
