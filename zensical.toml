@@ -18,6 +18,7 @@ nav = [
             { "CVE-2025-29266" = "security/CVE-2025-29266.md" }
         ]},
         { "Plugins" = [
+            "unraid/plugins.md",
             { "Auto Unlock" = [
                 { "Overview" = "unraid/auto-unlock/setup.md" },
                 { "How It Works" = "unraid/auto-unlock/how.md" },
@@ -50,8 +51,13 @@ nav = [
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.def_list]
+[project.markdown_extensions.md_in_html]
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.snippets]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji" 
+emoji_generator = "zensical.extensions.emoji.to_svg"
 
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
@@ -66,7 +72,7 @@ custom_dir = "overrides"
 features = [
     "navigation.instant",
     "navigation.path",
-    "content.code.copy"
+    "content.code.copy",
 ]
 
 [project.theme.icon]
