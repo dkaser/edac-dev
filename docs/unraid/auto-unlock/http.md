@@ -14,11 +14,12 @@ You upload your base64-encoded piece as a text file to a web server. During boot
 ## Configuration Format
 
 ```text
-:http,url='https://server.example.com/path/to/share.txt':
+https://server.example.com/path/to/share.txt
 ```
 
 - Always use HTTPS when possible to encrypt the piece during transit
 - The URL must point directly to the piece text file
+- If the server uses a self-signed or untrusted certificate, you can use `https+insecure://` to skip certificate verification (not recommended)
 
 ## Setup Instructions
 
@@ -42,7 +43,7 @@ You upload your base64-encoded piece as a text file to a web server. During boot
 3. Add to Automatic Disk Unlock configuration:
 
     ```text
-    :http,url='https://server.example.com/path/to/share.txt':
+    https://server.example.com/path/to/share.txt
     ```
 
 ### Option 2: Tailscale Serve
@@ -95,7 +96,7 @@ You upload your base64-encoded piece as a text file to a web server. During boot
 5. Add to Automatic Disk Unlock configuration:
 
     ```text
-    :http,url='https://hostname.tailnet-name.ts.net:8443/piece.txt':
+    https://hostname.tailnet-name.ts.net:8443/piece.txt
     ```
 
 !!! tip "Tailscale HTTPS Certificates"
@@ -119,7 +120,7 @@ Refer to your cloud provider's documentation for setting up HTTP access to files
 ### Step 1: Prepare Location String
 
 ```text
-:http,url='https://server.example.com/share.txt':
+https://server.example.com/share.txt
 ```
 
 ### Step 2: Add to Automatic Disk Unlock Configuration
