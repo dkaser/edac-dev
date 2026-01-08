@@ -48,6 +48,15 @@ description: List of Unraid Plugins maintained by EDAC.
 
     :fontawesome-brands-github: [Repository](https://github.com/dkaser/unraid-plugin-diagnostics)
 
+- :fontawesome-solid-link: __WebGUI Header Link Fix__
+
+    ---
+    Fixes the "Unraid" link in the WebGUI header to take you back to the start page instead of unraid.net.
+
+    :fontawesome-solid-circle-info: [Documentation](header-fix/header-fix.md)
+
+    :fontawesome-brands-github: [Repository](https://github.com/dkaser/unraid-header-fix)
+
 - :fontawesome-solid-tags: __Label Manager__
 
     ---
@@ -103,6 +112,5 @@ description: List of Unraid Plugins maintained by EDAC.
     Command-line utility for managing storage controllers.
 
     :fontawesome-brands-github: [Repository](https://github.com/dkaser/unraid-storcli)
-
 
 </div>
