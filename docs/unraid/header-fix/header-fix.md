@@ -10,4 +10,6 @@ This plugin fixes that. Clicking the "Unraid" link will now take you back to the
 
 The plugin can be installed by using the following URL in the "Install Plugin" page of the Unraid WebGUI:
 
-`https://raw.githubusercontent.com/dkaser/unraid-header-fix/main/plugin/header-fix.plg`
+```text
+https://raw.githubusercontent.com/dkaser/unraid-header-fix/main/plugin/header-fix.plg
+```
